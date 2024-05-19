@@ -32,7 +32,7 @@ const App = () => {
         </form>
 
         <div className="keypad">
-          <button className="highlight-top" id="clear" onClick={handleClear}>
+          <button className="clear highlight-top" onClick={handleClear}>
             Clear
           </button>
           <button className="highlight-top" id="backspace" onClick={handleBackspace}>
@@ -77,7 +77,7 @@ const App = () => {
           <button className="highlight" name="+" onClick={handleClick}>
             +
           </button>
-         
+
           <button id="zero" name="0" onClick={handleClick}>
             0
           </button>
