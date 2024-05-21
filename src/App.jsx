@@ -39,7 +39,7 @@ const App = () => {
             C
           </button>
           <button className="highlight" name="/" onClick={handleClick}>
-            %
+            ÷
           </button>
           <button name="7" onClick={handleClick}>
             7
